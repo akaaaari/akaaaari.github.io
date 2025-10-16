@@ -1,22 +1,92 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
- <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width">
-  <title lang="en">about cebu island</title>
- </head>
- <body>
-  <article>
-   <h1 lang="en">Cebu Island</h1>
-   <p>セブ島（英語: Cebu Island）は、フィリピン中部のビサヤ諸島に位置する細長い島で、首都マニラから南東へ約570kmにあります。<a href="https://www.google.com/maps/search/?api=1&query=Cebu+Island">MAP</a>
-    温暖な気候と美しい海に恵まれ、「南の女王都市」とも呼ばれるセブ市を中心に発展しています。
-    観光では、マクタン島のリゾートビーチやダイビングスポット、世界遺産候補のマゼランクロスなどが人気です。
-    オスロブではジンベエザメと泳げる体験が有名で、多くの観光客が訪れます。
-    歴史と自然、リゾートが調和したフィリピン屈指の観光地です。</p>
-  </article>
- </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>セブ島（Cebu）紹介</title>
+  <style>
+    :root{--accent:#0a74da;--bg:#f7fbff;--card:#ffffff}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6;margin:0;background:var(--bg);color:#0b2540}
+    header{background:linear-gradient(90deg,var(--accent),#2aa7d6);color:white;padding:48px 16px;text-align:center}
+    .container{max-width:980px;margin:28px auto;padding:0 16px}
+    h1{font-size:2rem;margin:0 0 8px}
+    p.lead{margin:0;opacity:0.95}
+    nav{margin-top:18px}
+    a.btn{display:inline-block;background:white;color:var(--accent);padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600;box-shadow:0 6px 18px rgba(10,116,218,0.12)}
+    main{display:grid;grid-template-columns:1fr;gap:20px;margin-top:18px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(8,18,40,0.06)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    ul{margin:8px 0 0 20px}
+    footer{margin:40px 0;padding:16px;text-align:center;color:#567}
+    @media(min-width:760px){header{padding:64px 16px}h1{font-size:2.4rem}main{grid-template-columns:2fr 1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>セブ島（Cebu） — 自然・歴史・リゾートのハーモニー</h1>
+      <p class="lead">フィリピン中部ビサヤ諸島に位置する細長い島。透明度の高い海、歴史的スポット、リゾートが共存する人気の観光地です。</p>
+      <nav>
+        <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Cebu+Island" target="_blank" rel="noopener noreferrer">MAP</a>
+      </nav>
+    </div>
+  </header>
 
+  <div class="container">
+    <main>
+      <section class="card">
+        <h2>地理と気候</h2>
+        <p>セブ島は北西から南東に細長く伸び、中心に港湾都市のセブ市があります。熱帯海洋性気候で年間を通して暖かく、乾季（11月〜4月）は観光のハイシーズンです。</p>
+
+        <h2 style="margin-top:14px">主な観光スポット</h2>
+        <div class="grid">
+          <div>
+            <strong>マクタン島のリゾートビーチ</strong>
+            <p>高級リゾートやダイビングスポットが集まる人気エリア。マリンアクティビティが豊富です。</p>
+          </div>
+          <div>
+            <strong>マゼランクロス（セブ市）</strong>
+            <p>1521年に設置された歴史的な十字架。スペイン植民地時代の名残を感じられます。</p>
+          </div>
+          <div>
+            <strong>オスロブ（ジンベエザメ）</strong>
+            <p>ジンベエザメと泳げる観光体験で有名。自然保護ルールを守って楽しみましょう。</p>
+          </div>
+          <div>
+            <strong>カワサン滝</strong>
+            <p>ターコイズブルーの滝と渓流で人気のアクティビティはキャニオニング。</p>
+          </div>
+        </div>
+
+        <h2 style="margin-top:14px">体験・アクティビティ</h2>
+        <ul>
+          <li>スノーケリング／ダイビング — 多様なサンゴと熱帯魚。</li>
+          <li>アイランドホッピング — 小さな無人島へ日帰りツアー。</li>
+          <li>歴史散策 — スペイン植民地の名残を巡る市内観光。</li>
+        </ul>
+      </section>
+
+      <aside class="card">
+        <h3>旅行のヒント</h3>
+        <ul>
+          <li>パスポートと必要ビザを事前に確認。</li>
+          <li>日差しが強いので帽子・日焼け止めを持参。</li>
+          <li>ジンベエザメや滝など自然体験は保全ルールを尊重。</li>
+          <li>現地通貨（フィリピン・ペソ）と現金の用意がおすすめ。</li>
+        </ul>
+
+        <h3 style="margin-top:12px">連絡先・参考</h3>
+        <p>詳しい地図は上の「MAP」ボタンからGoogle Mapsを開いてください。</p>
+      </aside>
+    </main>
+
+    <footer>
+      <small>© セブ島紹介ページ — 旅行情報は変わることがあります。出発前に最新情報をご確認ください。</small>
+    </footer>
+  </div>
+</body>
 </html>
+
 
 
 
